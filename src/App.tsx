@@ -1,6 +1,6 @@
 import './App.css'
 import video from './assets/video/hero_video.mp4'
-import logo from './assets/images/logo.png'
+import Navbar from "./components/navbar/Navbar.tsx";
 
 function App() {
 
@@ -12,19 +12,7 @@ function App() {
             </video>
             <div className="hero-section overlay"></div>
             <section className="hero-content" >
-                <div className="nav-section">
-                    <div >
-                    <img src={logo} />
-                    </div>
-                    <div className="navbar">
-                        <ul>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Info</a></li>
-                            <li><a href="">Reviews</a></li>
-                            <li><a href="">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
+                <Navbar />
 
                 <h1>We help small business + nonprofits get online.</h1>
                 <h2>We build affordable SEO friendly website and offer an amazing digital marketing</h2>
